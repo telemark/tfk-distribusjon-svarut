@@ -8,9 +8,9 @@ module.exports = (item, callback) => {
   const cleanupJob = require('./lib/cleanup-job')
   const cleanupDocuments = require('./lib/cleanup-documents')
   const sendStatusMessage = require('./lib/send-status-message')
-  const sendDocumentsToSvarUt = require('./lib/send-documents-to-svarut')
+  const sendDocumentsToSvarUt = require('./lib/send-documents-to-svar-ut')
   const setupItem = require('./lib/setup-item')
-  const setupSvarut = require('./lib/setup-svarut')
+  const setupSvarut = require('./lib/setup-svar-ut')
   const start = fromString(JSON.stringify(item))
 
   const fromString = string => {
