@@ -1,0 +1,23 @@
+{
+  "_id": "575913e7598453685f198dcd",
+  "CALLBACK_STATUS_URL": "http://localhost:3000/api/575913e7598453685f198dcd",
+  "svarUtTitle": "Test av 1 dokument",
+  "recipients": [
+    {
+      "type": "privatPerson",
+      "navn": "Hermann Hupp",
+      "adresse1": "Fylkesbakken 10",
+      "adresse2": "",
+      "adresse3": "",
+      "postnr": "3715",
+      "poststed": "Skien",
+      "fodselsnr": "12345678909"
+    }
+  ],
+  "documents": [
+    {
+      "filsti": "test/data/jobs/document1.pdf",
+      "mimetype": "application/pdf"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "tfk-distribusjon-svarut",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ledd i saksbehandling som sender via SvarUt",
   "license": "MIT",
   "author": {
