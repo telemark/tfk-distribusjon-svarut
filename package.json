@@ -48,7 +48,7 @@
   "dependencies": {
     "mississippi": "1.2.0",
     "svarut": "2.0.1",
-    "tfk-generate-jwt": "1.0.1",
+    "tfk-generate-jwt": "1.0.2",
     "wreck": "9.0.0"
   }
 }
