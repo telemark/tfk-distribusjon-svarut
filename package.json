@@ -1,7 +1,7 @@
 {
   "name": "tfk-distribusjon-svarut",
-  "version": "1.0.10",
-  "description": "Ledd i saksbehandling som sender via SvarUt",
+  "version": "2.0.0",
+  "description": "Sends documents to SvarUT",
   "license": "MIT",
   "private": true,
   "author": {
@@ -22,6 +22,7 @@
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "test-offline": "standard && tap --reporter=spec test/**/*.js",
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js"

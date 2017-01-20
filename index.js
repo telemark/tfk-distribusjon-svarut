@@ -19,9 +19,10 @@ const fromString = string => {
 }
 
 module.exports = (item, callback) => {
+  const checkRetries = require('./lib/check-retries')
   const getNextJob = require('./lib/get-next-job')
   const saveJobDone = require('./lib/save-job-done')
-  const saveJobError = require('./lib/save-job-error')
+  const saveJobErrorOrRetry = require('./lib/save-job-error-or-retry')
   const cleanupJob = require('./lib/cleanup-job')
   const cleanupDocuments = require('./lib/cleanup-documents')
   const sendStatusMessage = require('./lib/send-status-message')
@@ -40,12 +41,13 @@ module.exports = (item, callback) => {
 
   miss.pipe(
     start,
+    checkRetries,
     getNextJob,
     setupItem,
     setupSvarut,
     sendDocumentsToSvarUt,
     saveJobDone,
-    saveJobError,
+    saveJobErrorOrRetry,
     cleanupJob,
     cleanupDocuments,
     sendStatusMessage,

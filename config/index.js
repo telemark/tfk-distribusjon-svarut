@@ -1,5 +1,8 @@
 'use strict'
 
+process.env.SVARUT_USERNAME = '0800_telemark_test'
+process.env.SVARUT_PASSWORD = 'f4e8cdf8-bc63-474a-8a85-fa97bf60edc4'
+
 module.exports = {
   DONE_DIRECTORY_PATH: process.env.TFK_DISTRIBUSJON_SVARUT_DONE_DIRECTORY_PATH || 'test/data/done',
   ERROR_DIRECTORY_PATH: process.env.TFK_DISTRIBUSJON_SVARUT_ERROR_DIRECTORY_PATH || 'test/data/errors',

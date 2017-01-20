@@ -1,6 +1,5 @@
 {
   "_id": "575913e7598453685f198dcd",
-  "CALLBACK_STATUS_URL": "http://localhost:3000/api/575913e7598453685f198dcd",
   "svarUtTitle": "Test av 1 dokument",
   "recipients": [
     {
@@ -11,11 +10,16 @@
       "adresse3": "",
       "postnr": "3715",
       "poststed": "Skien",
-      "fodselsnr": "12345678909"
+      "fodselsnr": "25129394059"
     }
   ],
   "documents": [
     {
+      "title": "Varsel - fag - Standpunktkarakter - 2016/2017",
+      "offTitle": "Varsel - fag Standpunktkarakter - 2016/2017",
+      "type": "warning",
+      "document": "test/data/jobs/document1.pdf",
+      "distribution": true,
       "filsti": "test/data/jobs/document1.pdf",
       "mimetype": "application/pdf"
     }
