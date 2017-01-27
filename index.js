@@ -29,6 +29,7 @@ module.exports = (item, callback) => {
   const sendDocumentsToSvarUt = require('./lib/send-documents-to-svar-ut')
   const setupItem = require('./lib/setup-item')
   const setupSvarut = require('./lib/setup-svar-ut')
+  const updateStats = require('./lib/update-stats')
   const start = fromString(JSON.stringify(item))
 
   const finished = error => {
@@ -51,6 +52,7 @@ module.exports = (item, callback) => {
     cleanupJob,
     cleanupDocuments,
     sendStatusMessage,
+    updateStats,
     finished
   )
 }
