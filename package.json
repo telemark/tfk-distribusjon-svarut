@@ -54,7 +54,7 @@
     "firebase-save": "2.1.0",
     "mississippi": "1.3.0",
     "svarut": "2.0.1",
-    "tfk-generate-jwt": "1.0.10",
+    "tfk-generate-jwt": "1.0.12",
     "wreck": "10.0.0"
   }
 }
