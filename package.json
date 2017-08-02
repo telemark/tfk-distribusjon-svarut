@@ -1,6 +1,6 @@
 {
   "name": "tfk-distribusjon-svarut",
-  "version": "2.1.13",
+  "version": "2.1.14",
   "description": "Sends documents to SvarUT",
   "license": "MIT",
   "private": true,
