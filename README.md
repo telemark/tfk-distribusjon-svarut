@@ -1,8 +1,9 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-distribusjon-svarut.svg?branch=master)](https://travis-ci.org/telemark/tfk-distribusjon-svarut)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-distribusjon-svarut.svg)](https://greenkeeper.io/)
+
 # tfk-distribusjon-svarut
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-distribusjon-svarut.svg)](https://greenkeeper.io/)
 Sends documents to SvarUT
 
 ## Config
@@ -50,6 +51,7 @@ $ docker run --env-file=docker.env --volume=/test/data:/src/test/data --rm telem
 - Stop the container and remove it.
 
 ## License
+
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/tfk-distribusjon-svarut.png "Robohash image of tfk-distribusjon-svarut")
+![Robohash image of tfk-distribusjon-svarut](https://robots.kebabstudios.party/tfk-distribusjon-svarut.png "Robohash image of tfk-distribusjon-svarut")

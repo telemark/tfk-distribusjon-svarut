@@ -1,11 +1,5 @@
-###########################################################
-#
-# Dockerfile for tfk-distribusjon-svarut
-#
-###########################################################
-
-# Setting the base to nodejs 4.7.2
-FROM node:4.7.2-alpine
+# Setting the base to nodejs 4.8.4
+FROM node:4.8.4-alpine
 
 # Maintainer
 MAINTAINER Geir Gåsodden
