@@ -35,7 +35,7 @@ module.exports = (item, callback) => {
     if (error) {
       callback(error, null)
     } else {
-      callback(null, {message: 'success'})
+      callback(null, { message: 'success' })
     }
   }
 
