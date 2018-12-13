@@ -1,8 +1,4 @@
-# Setting the base to nodejs 8.6.0
-FROM node:8.14.0-alpine@sha256:fa979a27cee3c8664a689e27e778b766af72da52920454160421854027374f09
-
-# Maintainer
-MAINTAINER Geir Gåsodden
+FROM node:8.14.0-alpine
 
 #### Begin setup ####
 
