@@ -50,7 +50,7 @@
     "tap": "12.6.0"
   },
   "dependencies": {
-    "mississippi": "3.0.0",
+    "mississippi": "4.0.0",
     "tfk-generate-jwt": "2.0.1",
     "svarut": "6.0.0",
     "wreck": "14.2.0"
