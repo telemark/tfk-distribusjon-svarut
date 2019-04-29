@@ -47,7 +47,7 @@
   "devDependencies": {
     "coveralls": "3.0.3",
     "standard": "12.0.1",
-    "tap": "13.1.0"
+    "tap": "13.1.1"
   },
   "dependencies": {
     "mississippi": "4.0.0",
